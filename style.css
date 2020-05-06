@@ -1,0 +1,110 @@
+
+  .nav{
+    margin-top: 20px;
+  }
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+   /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+.header-image {
+  margin-top:20px;
+}
+
+/* Bottom right text on the header image*/
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+/* Bottom left buttoin on the header image*/
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin-left: 100px;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+/*Card styles*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom:150px;
+}
+
+.card p {
+  padding-left: 20px;
+}
+
+.card h2 {
+  padding-left: 20px;
+}
+
+.card h3 {
+  padding-left: 20px;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:  RoyalBlue;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.fa-check {
+  color:green;
+}
+
+/*Price label*/
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
