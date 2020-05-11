@@ -1,14 +1,22 @@
 
+  body {
+    background-color: #F3F0EC;
+  }
+
+  .container-fluid{
+    padding: 0 30px;
+  }
+
   .nav{
     margin-top: 20px;
   }
+ 
+ /*Header image*/
+.header-image img {
+  width: 100%;
+}
 
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-
-   /* Container holding the image and the text */
+/* Container holding the image and the text */
 .container {
   position: relative;
 }
@@ -20,9 +28,9 @@
 /* Bottom right text on the header image*/
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
+  bottom: 120px;
+  right: 120px;
+  background-color:#092A5E;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -37,9 +45,9 @@
   font-size: 16px;
   cursor: pointer;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin-left: 100px;
+  bottom: 120px;
+  left: 120px;
+  margin-left: 40px;
 }
 
 .info {
@@ -50,11 +58,17 @@
 /*Card styles*/
 
 .card {
+  background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 500px;
   margin: auto;
-  margin-top:50px;
-  margin-bottom:150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+}
+
+.card img {
+  border-radius: 12px 12px 0 0;
 }
 
 .card p {
@@ -85,6 +99,7 @@
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  border-radius: 0 0 12px 12px;
 }
 
 a {
@@ -100,6 +115,41 @@ button:hover, a:hover {
 .fa-check {
   color:green;
 }
+
+/*Promo cards*/
+.promo-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.promo-card img {
+  border-radius: 12px 12px 0 0;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.promo-card img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.promo-card h2 {
+  padding-left: 20px;
+  color: #092A5E;
+  font-weight:bold;
+}
+
+.promo-card p{
+  padding: 0 0 20px 20px;
+  color: #092a5e;
+}
+
 
 /*Price label*/
 .label {
