@@ -41,7 +41,7 @@ body {
   border: 2px solid black;
   background-color: white;
   color: black;
-  padding: 14px 28px;
+  padding: 15px 70px;
   font-size: 16px;
   cursor: pointer;
   position: absolute;
@@ -50,12 +50,24 @@ body {
   margin-left: 40px;
 }
 
+.btn a {
+  text-decoration: none;
+}
+
 .info {
   border-color: #2196F3;
   color: dodgerblue
 }
 
 /*Card styles*/
+.card-heading {
+  text-align:center;
+  margin-top: 60px;
+}
+
+.card-heading h2 {
+  font-size: 40px;
+}
 
 .card {
   background-color: #fff;
@@ -69,6 +81,7 @@ body {
 
 .card img {
   border-radius: 12px 12px 0 0;
+  width: 100%;
 }
 
 .card p {
@@ -146,7 +159,7 @@ button:hover, a:hover {
 }
 
 .promo-card p{
-  padding: 0 0 20px 20px;
+  padding: 0 20px;
   color: #092a5e;
 }
 
@@ -176,3 +189,19 @@ button:hover, a:hover {
 .card-single p {
   padding: 20px;
 }
+
+
+.button-link {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
